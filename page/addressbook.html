@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title> AddressBook </title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="short icon" href="../assets/images/logo.png" />
+</head>
+<header>
+    <h1>Personal Address Book</h1>
+</header>
+<body>
+    <form action="#">
+        <fieldset>
+        <legend>Full Name</legend>
+       <div>
+        <p>
+            <label>Name</label>
+            <input type="text" >
+        </p>
+       </div>
+       </fieldset>
+       <fieldset>
+       <div>
+        <p>
+            <label>Address</label>
+            <input type="text">
+        </p>
+       </div>
+       </fieldset>
+
+       
+       <fieldset>
+        <div>
+         <p>
+             <label>City</label>
+             <input type="text">
+         </p>
+        </div>
+        </fieldset>
+
+         <fieldset>
+        <div>
+         <p>
+             <label>Zip code</label>
+             <input type="number">
+         </p>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <p>
+                    <label >Phone Number:</label>
+                    <input type="num"
+                    pattern="[0-9]{1,2}( )[0-9]{10}"
+                    title="Error 91 8989898989">
+                    
+                </p>
+            </div>
+            </fieldset>
+
+        <p id="btn">
+        
+            <button type="submit">Add</button>
+            <button type="reset">Reset</button>
+        </p>
+
+    </form>
+       </body>
+       </html>
+    
+
